@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/state-booklist/precache-manifest.341b1fa5f74d2424d462d8e04f80fff3.js"
+  "/React-Projects/state-booklist/precache-manifest.8b17cdd62709b8f5658e3646e9371849.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/state-booklist/index.html", {
+workbox.routing.registerNavigationRoute("/React-Projects/state-booklist/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
