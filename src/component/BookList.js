@@ -17,7 +17,7 @@ class BookList extends Component {
       <div>
         <h2 style={{ textAlign: "center" }}>Best Selling Books this week</h2>
         {this.state.books.map(book => (
-          <Book info={book} key={book.id} />
+          <Book info={book} key={book.id} handleClick={this.handleClick} />
         ))}
         {/* <Button /> */}
       </div>

@@ -27,6 +27,7 @@ class Book extends Component {
 
   render() {
     const { image, title, author } = this.props.info;
+    const { handleClick } = this.props;
     return (
       <div className="book">
         <img src={image} alt="book" style={{ width: "150px" }} />
@@ -42,7 +43,7 @@ class Book extends Component {
           <button style={{ margin: "2px" }} onClick={this.resetClickHandler}>
             Reset Count
           </button>
-          {/* <Button /> */}
+          {/* <Button handleClick={handleClick}/> */}
           <h2> Count: {this.state.count}</h2>
         </div>
       </div>
